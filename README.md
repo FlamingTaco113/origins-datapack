@@ -1,5 +1,6 @@
 
-![banner](https://github.com/FlamingTaco113/origins-datapack/assets/164125083/609ab231-58d5-4919-a777-f8b0e46c76ed)
+![banner_no_bg](https://github.com/FlamingTaco113/origins-datapack/assets/164125083/1eb6289f-0cab-4bd7-a952-41771bb54ebd)
+
 
 # Origins Datapack for Minecraft
 
