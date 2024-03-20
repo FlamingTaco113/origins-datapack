@@ -4,4 +4,4 @@
 
 # Origins Datapack for Minecraft
 
-This is the GitHub Repository for the **Origins Datapack**, focused on recreating the Origins Fabric Mod but in vanilla with the use of a datapack.
+This is the GitHub Repository for the **Origins Datapack**, focused on recreating the Origins Fabric Mod in vanilla with the use of a datapack.
