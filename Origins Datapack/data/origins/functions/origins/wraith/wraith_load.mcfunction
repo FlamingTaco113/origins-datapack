@@ -1,0 +1,1 @@
+scoreboard objectives add wraith_cooldown dummy

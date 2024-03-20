@@ -1,0 +1,3 @@
+scoreboard objectives add respawn_in_nether dummy
+scoreboard objectives add blazeborn_death deathCount
+scoreboard objectives add blazeborn_time_died minecraft.custom:minecraft.time_since_death

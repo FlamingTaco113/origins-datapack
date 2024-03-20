@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Spectral Slip-up"
+        },
+        "description": {
+            "text": "Accidently reveal yourself by hiding for too long",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "origins:origins/wraith_use"
+}

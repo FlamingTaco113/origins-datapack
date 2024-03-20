@@ -1,0 +1,25 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Wololo..."
+        },
+        "description": {
+            "text": "Use the evoker's fang attack",
+            "color": "yellow"
+        },
+        "icon": {
+            "item": "minecraft:red_wool"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "origins:origins/evoker"
+}
