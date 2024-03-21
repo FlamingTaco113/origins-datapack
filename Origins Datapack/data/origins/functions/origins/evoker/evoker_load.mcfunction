@@ -1,1 +1,0 @@
-scoreboard objectives add evoker_cooldown dummy
