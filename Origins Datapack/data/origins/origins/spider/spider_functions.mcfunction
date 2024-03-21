@@ -1,0 +1,1 @@
+execute as @a[tag=spider] run function origins:origins/spider/spider
