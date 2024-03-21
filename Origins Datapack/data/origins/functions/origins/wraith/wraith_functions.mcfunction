@@ -1,0 +1,1 @@
+execute as @a[tag=wraith] run function origins:origins/wraith/wraith

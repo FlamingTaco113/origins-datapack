@@ -1,0 +1,1 @@
+scoreboard players set @s blazeborn_death 0
