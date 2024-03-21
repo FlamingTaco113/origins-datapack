@@ -1,1 +1,0 @@
-execute as @a[tag=elytrian] run function origins:origins/elytrian/elytrian
