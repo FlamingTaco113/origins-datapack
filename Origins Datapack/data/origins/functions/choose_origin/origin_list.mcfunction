@@ -20,8 +20,8 @@ tellraw @s {"text":"[Evoker]","color":"gray","italic":false,"hoverEvent":{"actio
 
 tellraw @s {"text":"[Merling]","color":"blue","italic":false,"hoverEvent":{"action":"show_text","value":[{"text":"[Can breathe underwater] [Can break blocks easily underwater] [Increased Swim Speed] [Suffocates when not in water]"}]},"clickEvent":{"action":"run_command","value":"/trigger zzme_p"}}
 
-tellraw @s {"text":"[Arachnid]","color":"dark_gray","italic":false,"hoverEvent":{"action":"show_text","value":[{"text":"[Can climb walls] [Attacks leave players in cobwebs] [Health is reduced to 3 hearts] "}]},"clickEvent":{"action":"run_command","value":"/trigger zzsp_p"}}
+tellraw @s {"text":"[Arachnid]","color":"dark_gray","italic":false,"hoverEvent":{"action":"show_text","value":[{"text":"[Can climb walls] [Attacks leave players in cobwebs] [Health is reduced to 7 hearts] "}]},"clickEvent":{"action":"run_command","value":"/trigger zzsp_p"}}
 
-tellraw @s {"text":"[Wraith]","color":"#383838","italic":false,"hoverEvent":{"action":"show_text","value":[{"text":"[Can become invisible by crouching] [Immune to hunger] [Health is reduced to 7 hearts] [Invisibility give hunger]"}]},"clickEvent":{"action":"run_command","value":"/trigger zzwr_p"}}
+tellraw @s {"text":"[Wraith]","color":"#383838","italic":false,"hoverEvent":{"action":"show_text","value":[{"text":"[Can become invisible by crouching] [Immune to hunger] [Health is reduced to 7 hearts] [Invisibility gives hunger]"}]},"clickEvent":{"action":"run_command","value":"/trigger zzwr_p"}}
 
 tellraw @s {"text":"--------------------------------------------------","color":"gold"}

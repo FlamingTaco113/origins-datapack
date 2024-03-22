@@ -1,6 +1,6 @@
 execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 2 1 1
 
-tellraw @a {"text":"              origins-datapack v1.1","color":"yellow"}
+tellraw @a {"text":"              origins-datapack v1.0.1","color":"yellow"}
 tellraw @a {"text":"--------------------------------------","color":"white"}
 tellraw @s {"text":"Added 8 Origins","color":"yellow"}
 tellraw @s {"text":"New Origins"}
