@@ -1,14 +1,4 @@
-execute as @s[scores={eat_rabbit_cooked=1..}] run function origins:origins/avian/avian_death
-execute as @s[scores={eat_rabbit_raw=1..}] run function origins:origins/avian/avian_death
+execute if entity @s[tag=avian] run damage @s 10 minecraft:starve
+execute if entity @s[tag=avian] run advancement grant @s only origins:origins/avian_meat
 
-execute as @s[scores={eat_chicken_cooked=1..}] run function origins:origins/avian/avian_death
-execute as @s[scores={eat_chicken_raw=1..}] run function origins:origins/avian/avian_death
-
-execute as @s[scores={eat_beef_cooked=1..}] run function origins:origins/avian/avian_death
-execute as @s[scores={eat_beef_raw=1..}] run function origins:origins/avian/avian_death
-
-execute as @s[scores={eat_mutton_cooked=1..}] run function origins:origins/avian/avian_death
-execute as @s[scores={eat_mutton_raw=1..}] run function origins:origins/avian/avian_death
-
-execute as @s[scores={eat_pork_cooked=1..}] run function origins:origins/avian/avian_death
-execute as @s[scores={eat_pork_raw=1..}] run function origins:origins/avian/avian_death
+advancement revoke @s only origins:avian_eat_meat
