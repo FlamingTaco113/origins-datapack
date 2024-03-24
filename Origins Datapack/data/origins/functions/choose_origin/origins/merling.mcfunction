@@ -3,6 +3,7 @@ scoreboard players set @s picked 1
 scoreboard players reset @s pick_origin
 function origins:choose_origin/disable_picks
 scoreboard players set @s zzme_p 0
+scoreboard players set @s out_of_water 0
 
 tellraw @s {"text":"--------------------------------------------------","color":"gold"}
 tellraw @s {"text":"You selected Merling","color":"blue"}

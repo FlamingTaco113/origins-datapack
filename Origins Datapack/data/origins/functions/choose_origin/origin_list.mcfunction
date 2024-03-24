@@ -8,7 +8,7 @@ tellraw @s {"text":"        [hover over the origin to see pros and cons]","color
 
 tellraw @s {"text":"--------------------------------------------------","color":"gold"}
 
-tellraw @a {"text":"[Avian]","color":"gold","italic":false,"hoverEvent":{"action":"show_text","value":[{"text":"[Infinite Slow Falling] [Quicker Speeds] [Cannot eat meat]"}]},"clickEvent":{"action":"run_command","value":"/trigger zzav_p"}}
+tellraw @s {"text":"[Avian]","color":"gold","italic":false,"hoverEvent":{"action":"show_text","value":[{"text":"[Infinite Slow Falling] [Quicker Speeds] [Cannot eat meat]"}]},"clickEvent":{"action":"run_command","value":"/trigger zzav_p"}}
 
 tellraw @s {"text":"[Blazeborn]","color":"red","italic":false,"hoverEvent":{"action":"show_text","value":[{"text":"[Fire Resistance] [Poison Resistance] [Spawns in Nether] [Takes Damage in Water]"}]},"clickEvent":{"action":"run_command","value":"/trigger zzbl_p"}}
 

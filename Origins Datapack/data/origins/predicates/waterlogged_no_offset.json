@@ -1,6 +1,5 @@
 {
   "condition": "minecraft:location_check",
-  "offsetY": 1,
   "predicate": {
     "fluid": {
       "tag": "minecraft:water"

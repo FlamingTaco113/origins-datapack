@@ -6,7 +6,7 @@
 tellraw @a {"text":"--------------------------------------","color":"white"}
 tellraw @a {"text":"                 Origins Datapack","color":"gold"}
 tellraw @a {"text":"--------------------------------------","color":"white"}
-tellraw @a {"text":"Version: [1.0.3]","color":"yellow"}
+tellraw @a {"text":"Version: [1.0.4]","color":"yellow"}
 tellraw @a {"text":""}
 tellraw @a [{"text":"Created by "},{"text":"[FlamingTaco113]","color":"yellow"}]
 tellraw @a [{"text":"Type "},{"text":"/trigger help","color": "yellow"},{"text": " for more information"}]
@@ -15,11 +15,13 @@ tellraw @a {"text":"--------------------------------------","color":"white"}
 
 gamerule sendCommandFeedback false
 
+
 scoreboard objectives add test dummy
 scoreboard objectives add pick_origin trigger
 scoreboard objectives add help trigger
 scoreboard objectives add picked dummy
 scoreboard objectives add origins_sneaking minecraft.custom:minecraft.sneak_time
+scoreboard objectives add time_died minecraft.custom:minecraft.time_since_death
 function origins:choose_origin/choose_origin_load
 
 function origins:interactions/interactions_load

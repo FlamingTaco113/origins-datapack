@@ -5,3 +5,5 @@ scoreboard players add @a evoker_cooldown 0
 scoreboard players add @a picked 0
 execute as @a if score @s picked matches 0 run function origins:choose_origin/enable_picks
 execute as @a if score @s picked matches 0 run function origins:choose_origin/check_picked
+
+execute as @a if entity @s[scores={time_died=100..}] run scoreboard players set @s time_died 10
