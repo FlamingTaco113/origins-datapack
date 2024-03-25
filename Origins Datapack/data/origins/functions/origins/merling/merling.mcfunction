@@ -6,12 +6,12 @@ execute as @s at @s if predicate origins:waterlogged if score @s out_of_water ma
 execute as @s at @s unless predicate origins:waterlogged unless block ~ ~ ~ water_cauldron if score @s out_of_water matches 269.. if score @s out_of_water matches ..269 at @s run playsound minecraft:entity.drowned.swim master @s
 
 
-execute at @s if predicate origins:waterlogged unless block ~ ~ ~ #slabs unless block ~ ~ ~ #air run effect give @s night_vision 15 0 true
-execute at @s if predicate origins:waterlogged unless block ~ ~ ~ #slabs unless block ~ ~ ~ #air run effect give @s haste 1 20 true
+execute at @s if predicate origins:waterlogged unless block ~ ~ ~ #slabs unless block ~ ~ ~ #stairs unless block ~ ~ ~ #origins:air run effect give @s night_vision 15 0 true
+execute at @s if predicate origins:waterlogged unless block ~ ~ ~ #slabs unless block ~ ~ ~ #stairs unless block ~ ~ ~ #origins:air if score @s merling_haste matches 1 run effect give @s haste 1 20 true
 
 
 
-execute at @s if predicate origins:is_raining unless biome ~ ~ ~ #c:desert unless biome ~ ~ ~ #c:mesa unless biome ~ ~ ~ #c:savanna unless dimension minecraft:the_nether run scoreboard players remove @s out_of_water 1
+execute at @s if blocks ~ ~1 ~ ~ 319 ~ ~ ~ ~ masked if predicate origins:is_raining if predicate origins:enderian_rain unless biome ~ ~ ~ #c:desert unless biome ~ ~ ~ #c:mesa unless biome ~ ~ ~ #c:savanna unless dimension minecraft:the_nether run scoreboard players remove @s out_of_water 2
 
 execute at @s unless predicate origins:waterlogged run scoreboard players add @s out_of_water 1
 
