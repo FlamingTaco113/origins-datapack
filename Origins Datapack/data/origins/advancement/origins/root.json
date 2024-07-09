@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Origins",
+            "underlined": false
+        },
+        "description": {
+            "text": "Select an Origin and start anew"
+        },
+        "icon": {
+            "id": "minecraft:ender_eye"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/deepslate.png"
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

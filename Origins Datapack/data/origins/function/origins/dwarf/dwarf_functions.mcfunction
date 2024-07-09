@@ -1,0 +1,1 @@
+execute as @a[tag=dwarf] run function origins:origins/dwarf/dwarf

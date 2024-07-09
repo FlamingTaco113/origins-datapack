@@ -1,0 +1,1 @@
+execute as @e[tag=giant] run function origins:origins/giant/giant

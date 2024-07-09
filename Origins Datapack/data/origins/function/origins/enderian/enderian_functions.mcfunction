@@ -1,0 +1,1 @@
+execute as @a[tag=enderian] run function origins:origins/enderian/enderian

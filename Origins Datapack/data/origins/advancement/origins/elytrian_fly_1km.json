@@ -1,0 +1,28 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": "Elytra Explorer"
+        },
+        "description": {
+            "text": "Fly one kilometer using the elytra",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "id": "minecraft:elytra",
+            "components": {
+              "minecraft:damage": 432
+            }
+          },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "c1": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "origins:origins/elytrian_boost"
+}
